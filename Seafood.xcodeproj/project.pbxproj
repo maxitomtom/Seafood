@@ -13,6 +13,7 @@
 		CFC3D013248CE242000040B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3D011248CE242000040B8 /* Main.storyboard */; };
 		CFC3D015248CE24C000040B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC3D014248CE24C000040B8 /* Assets.xcassets */; };
 		CFC3D018248CE24C000040B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC3D016248CE24C000040B8 /* LaunchScreen.storyboard */; };
+		CFC3D020248CE430000040B8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CFC3D01F248CE430000040B8 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CFC3D014248CE24C000040B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC3D017248CE24C000040B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC3D019248CE24C000040B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC3D01F248CE430000040B8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CFC3D014248CE24C000040B8 /* Assets.xcassets */,
 				CFC3D016248CE24C000040B8 /* LaunchScreen.storyboard */,
 				CFC3D019248CE24C000040B8 /* Info.plist */,
+				CFC3D01F248CE430000040B8 /* Inceptionv3.mlmodel */,
 			);
 			path = Seafood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC3D010248CE242000040B8 /* ViewController.swift in Sources */,
+				CFC3D020248CE430000040B8 /* Inceptionv3.mlmodel in Sources */,
 				CFC3D00C248CE242000040B8 /* AppDelegate.swift in Sources */,
 				CFC3D00E248CE242000040B8 /* SceneDelegate.swift in Sources */,
 			);
